@@ -1,12 +1,12 @@
 /* Post componentından buraya neleri props olarak gönderdin? Onları burada kullan. */
-export default function PostComment(/* kodlar buraya */) {
+export default function PostComment({ comment }) {
   /* yorum sahibinin adı ve yorumu props'tan kullanılmalı */
-
+  const { username, text } = comment;
   return (
     <p className="post-comment">
-      <span>john doe</span> {/* comment.username */}
+      <span>{username}</span>
       <span className="sep">&middot;</span>
-      Loremasd ipsum dolor {/* comment.text */}
+      {text}
     </p>
   );
 }
