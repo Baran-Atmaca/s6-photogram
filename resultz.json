@@ -1,0 +1,33 @@
+{
+  "stats": "7 passed, 0 failed out of 7",
+  "tests": [
+    {
+      "name": "PostList componentı import edilip kullanılmış mı?",
+      "state": "pass"
+    },
+    {
+      "name": "PostList componentına doğru data propsu iletilmiş mi?",
+      "state": "pass"
+    },
+    {
+      "name": "App, PostList'e clapAction props'unu aktarıyor mu?",
+      "state": "pass"
+    },
+    {
+      "name": "Post componenti doğru propsları alıp kullanıyor mu?",
+      "state": "pass"
+    },
+    {
+      "name": "Post componentı tüm postları ve clap butonlarını görüntülüyor mu?",
+      "state": "pass"
+    },
+    {
+      "name": "Clap butonuna tıklandığında doğru sayıyı arttırıyor mu?",
+      "state": "pass"
+    },
+    {
+      "name": "Doğru yorumları görüntülüyor mu?",
+      "state": "pass"
+    }
+  ]
+}
